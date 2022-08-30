@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 1080px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header {
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    top: 40px;
+    left: 77px;
+}
+
+.header p {
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+.section img {
+    position: absolute;
+
+    height: 447.43px;
+    width: 539.22px;
+    left: 77px;
+    top: 265px;
+    border-radius: 0px;
+
+
+}
+
+
+.section h1 {
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 735px;
+    top: 265px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+
+    /* Gray 1 */
+
+    color: #333333;
+
+}
+
+.p .paragraph {
+    position: absolute;
+
+    height: 108px;
+    width: 381px;
+    left: 736px;
+    top: 491px;
+    border-radius: 0;
+
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+
+.container {
+    height: 21px;
+    width: 130px;
+    left: 783px;
+    top: 687px;
+}
+
+.container #back {
+    position:absolute;
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    top: 663px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    background: #333333;
+
+    color: #FFFFFF;
+
+}
+
+.copyright {
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 577px;
+    top: 1039px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #BDBDBD;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    /* * {
+        width: 375px;
+        height: 949px;
+    } */
+
+    body {
+        width: 375px;
+        height: 949px;
+    }
+
+    .header {
+        top: 20px;
+        left: 24px;
+    }
+
+    .section .Scarecrow {
+
+        width: 286.83px;
+        height: 238px;
+        top: 109px;
+        left: 44px;
+    }
+    
+    
+    .section h1 {
+        display:block;
+        width: 350px;
+        height: 142px;
+        left: 24px;
+        top: 407px;
+    
+        font-size: 42px;
+        line-height: 71px;    
+    }
+    
+    .p .paragraph {
+        display: block;
+    
+        height: 81px;
+        width: 328px;
+        left: 23px;
+        top: 579px;
+    
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .container {
+        left: 67px;
+        top: 750px;
+    }
+
+    .container #back {
+        left: 24px;
+        top: 726px;
+    }
+
+    .copyright {
+        position: absolute;
+        height: 17px;
+        left: 46px;
+        top: 908px;
+    }
+}

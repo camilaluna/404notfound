@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 page challenge</title>
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header">
+      <p>404 not found</p>
+    </div>
+  </header>
+  <section>
+    <div class="section">
+      <img class="Scarecrow" src="Scarecrow.png" alt="">
+      <h1>I have bad news for you</h1>
+    </div>
+    <div class="p">
+      <p class="paragraph">The page you are looking for might be removed or is temporarily unavailable</p>
+    </div>
+
+    <div class="container">
+      <button id="back">BACK TO HOME PAGE</button>
+    </div>
+    
+  </section>
+  
+  <footer>
+    <p class="copyright">created by camipaezluna - devChallenges.io</p>
+  </footer>
+</body>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBQiOpoiFnf6dT8TCmhQ6RDc6SfHMMiihM",
+    authDomain: "not-found-ffcf6.firebaseapp.com",
+    projectId: "not-found-ffcf6",
+    storageBucket: "not-found-ffcf6.appspot.com",
+    messagingSenderId: "990898579599",
+    appId: "1:990898579599:web:04dcc3a9589e24027fa8fa",
+    measurementId: "G-RTT9SGY0KX"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+</html>
